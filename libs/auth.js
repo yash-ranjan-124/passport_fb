@@ -2,8 +2,8 @@ const passport = require("passport");
 const InstaStrategy = require("passport-facebook").Strategy;
 
 
-const FB_CLIENT_ID = "513869766144293";
-const FB_CLIENT_SECRET = "c4e76609a399e3f678f9da9fe0d911c4";
+const FB_CLIENT_ID = "";
+const FB_CLIENT_SECRET = "";
 
 passport.serializeUser((user,done)=>{
     done(null,user);
